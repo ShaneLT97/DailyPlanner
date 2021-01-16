@@ -15,7 +15,7 @@ $(document).ready(function() {
       nowHour24 = 13;
       nowHour12 = 1;
     }
-  
+     
     let $dateHeading = $('#navbar-subtitle');
     $dateHeading.text(now);
     
@@ -30,10 +30,7 @@ $(document).ready(function() {
     
     if (storedPlans !== null) {
       planTextArr = storedPlans;
-    } else {
-
-
-
+    } else 
   
     if (test) { console.log("full array of plned text",planTextArr); }
   
